@@ -482,8 +482,8 @@ package com.sapphire
 				renderer = this._inactiveRenderers.shift();
 				//trace('[DataContainer] reuse renderer');
 			}
-			renderer.data = item;
 			renderer.itemIndex = index;
+			renderer.data = item;			
 			//renderer.owner = this.owner;
 			
 			if(!isTemporary)
